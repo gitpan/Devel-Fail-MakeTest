@@ -1,7 +1,7 @@
 use ExtUtils::MakeMaker;
 
 my
-$VERSION = do { my @r = (q$Revision: 1.4 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 1.5 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
 
 WriteMakefile(
               NAME => 'Devel::Fail::MakeTest',
@@ -13,7 +13,7 @@ sub MY::top_targets
   {
   return <<'ENDTOPTARGETS';
 all :
-	$(NOECHO) $(ECHO) `make all` was successful.
+	$(NOECHO) $(ECHO) make_all_was_successful.
 pure_all :
 ENDTOPTARGETS
   } # MY::top_targets
