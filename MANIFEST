@@ -4,3 +4,5 @@ MANIFEST			This list of files
 META.yml
 README
 t/fail.t
+t/pod-coverage.t
+t/pod.t

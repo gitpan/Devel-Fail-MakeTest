@@ -1,12 +1,15 @@
-use ExtUtils::MakeMaker;
+
+# $Id: Makefile.PL,v 1.6 2007/04/22 02:58:37 Daddy Exp $
+
+use inc::Module::Install;
 
 my
-$VERSION = do { my @r = (q$Revision: 1.5 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 1.6 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
 
-WriteMakefile(
-              NAME => 'Devel::Fail::MakeTest',
-              VERSION => $VERSION,
-             );
+name('Devel-Fail-MakeTest');
+version($VERSION);
+license('perl');
+WriteAll;
 
 # Allow `make` to succeed:
 sub MY::top_targets
