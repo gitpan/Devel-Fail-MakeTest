@@ -1,10 +1,10 @@
 
-# $Id: Makefile.PL,v 1.6 2007/04/22 02:58:37 Daddy Exp $
+# $Id: Makefile.PL,v 1.7 2007/05/09 10:29:06 Daddy Exp $
 
 use inc::Module::Install;
 
 my
-$VERSION = do { my @r = (q$Revision: 1.6 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 1.7 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
 
 name('Devel-Fail-MakeTest');
 version($VERSION);
@@ -39,4 +39,3 @@ ENDTEST
   } # MY::install
 
 __END__
-
