@@ -1,10 +1,13 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Devel-Fail-MakeTest
-version:      1.005
-version_from: 
-installdirs:  site
-requires:
-
+--- 
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.25
+generated_by: Module::Install version 0.65
+license: perl
+meta-spec: 
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: Devel-Fail-MakeTest
+no_index: 
+  directory: 
+    - inc
+    - t
+version: 1.008
