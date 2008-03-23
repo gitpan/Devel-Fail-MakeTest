@@ -7,7 +7,7 @@ my
 $VERSION = do { my @r = (q$Revision: 1.9 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
 
 name('Devel-Fail-MakeTest');
-version($VERSION);
+version_from('lib/Devel/Fail/MakeTest.pm');
 license('perl');
 WriteAll;
 

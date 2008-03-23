@@ -1,5 +1,5 @@
 
-# $Id: MakeTest.pm,v 1.5 2008/03/07 00:04:46 Daddy Exp $
+# $Id: MakeTest.pm,v 1.11 2008/03/23 02:29:25 Martin Exp $
 
 =head1 NAME
 
@@ -25,8 +25,8 @@ package Devel::Fail::MakeTest;
 use strict;
 use warnings;
 
-my
-$VERSION = do { my @r = (q$Revision: 1.5 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+our
+$VERSION = do { my @r = (q$Revision: 1.11 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
 
 1;
 
