@@ -1,14 +1,19 @@
 ---
-author: ~
+abstract: 'a distro that always fails the `make test` stage'
+author:
+  - 'Martin Thurn c<mthurn@cpan.org>'
 distribution_type: module
-generated_by: 'Module::Install version 0.75'
+generated_by: 'Module::Install version 0.77'
 license: perl
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Devel::Fail::MakeTest
 name: Devel-Fail-MakeTest
 no_index:
   directory:
     - inc
     - t
-version: 1.012
+resources:
+  license: http://dev.perl.org/licenses/
+version: 1.013

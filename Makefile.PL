@@ -1,14 +1,10 @@
 
-# $Id: Makefile.PL,v 1.10 2008/03/23 02:38:18 Martin Exp $
+# $Id: Makefile.PL,v 1.11 2009/01/15 20:34:16 Martin Exp $
 
 use inc::Module::Install;
 
-my
-$VERSION = do { my @r = (q$Revision: 1.10 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+all_from('lib/Devel/Fail/MakeTest.pm');
 
-name('Devel-Fail-MakeTest');
-version_from('lib/Devel/Fail/MakeTest.pm');
-license('perl');
 WriteAll;
 
 __END__

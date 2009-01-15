@@ -1,5 +1,5 @@
 
-# $Id: MakeTest.pm,v 1.12 2008/06/12 13:31:15 Martin Exp $
+# $Id: MakeTest.pm,v 1.13 2009/01/15 20:33:54 Martin Exp $
 
 =head1 NAME
 
@@ -20,7 +20,7 @@ This software is released under the same license as Perl itself.
 
 =head1 AUTHOR
 
-Martin Thurn
+Martin Thurn c<mthurn@cpan.org>
 
 =cut
 
@@ -30,7 +30,7 @@ use strict;
 use warnings;
 
 our
-$VERSION = do { my @r = (q$Revision: 1.12 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 1.13 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
 
 1;
 
